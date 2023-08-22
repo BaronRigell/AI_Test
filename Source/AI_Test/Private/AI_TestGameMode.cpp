@@ -7,7 +7,6 @@
 AAI_TestGameMode::AAI_TestGameMode()
 	: Super()
 {
-	// set default pawn class to our Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/AI_Test/Core/Characters/Player/BP_FirstPersonCharacter"));
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
